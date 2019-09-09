@@ -1,4 +1,4 @@
-package com.devexpo;
+package me.efleurine.devexpo;
 
 import android.app.Application;
 import android.util.Log;
