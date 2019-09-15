@@ -1,11 +1,16 @@
 {
-  "name": "ExpoAyiti",
+  "name": "devexpo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "android": "cd android && ./gradlew clean && cd .. && react-native run-android",
+    "installRelease": "react-native run-android --variant=release",
+    "cleanDev": "watchman watch-del-all && adb uninstall me.efleurine.devexpo",
+    "reload": "sh ./reload.sh",
+    "open": "sh ./open.sh"
   },
   "dependencies": {
     "react": "16.8.6",
