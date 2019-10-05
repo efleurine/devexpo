@@ -1,24 +1,18 @@
-import React from 'react';
-import { View } from 'react-native';
-import { Drawer, Text } from 'react-native-ui-kitten';
+import React from "react";
+import {View} from "react-native";
+import {Drawer, Text} from "react-native-ui-kitten";
 
-const data = [
-  { title: 'Feed' },
-  { title: 'Messages' },
-  { title: 'Settings' },
-];
+const data = [{title: "Feed"}, {title: "Messages"}, {title: "Settings"}];
 
-const DrawerHeader = (style) => (
+const DrawerHeader = style => (
   <View style={style}>
-    <Text category='h6'>Awesome Application</Text>
+    <Text category="h6">Awesome Application</Text>
   </View>
 );
 
-
-export function DrawerNavigation(){
-  return  <Drawer data={data} header={DrawerHeader} />;
+export function DrawerNavigation() {
+  return <Drawer data={data} header={DrawerHeader} />;
 }
-
 
 // import React from 'react';
 // import { createDrawerNavigator, SafeAreaView } from 'react-navigation';

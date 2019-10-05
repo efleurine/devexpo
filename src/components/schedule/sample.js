@@ -23,7 +23,7 @@ export default [
     rcd: true,
     who: ["Emmanuel Fleurine"],
     image,
-    tags:["ReactJS", "Web Development", "Meetup"]
+    tags: ["ReactJS", "Web Development", "Meetup"],
   },
   {
     time: "2:05-2:20",

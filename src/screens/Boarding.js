@@ -3,7 +3,6 @@ import {View, Text, SafeAreaView, Button} from "react-native";
 import AsyncStorage from "@react-native-community/async-storage";
 
 export default class Boarding extends React.Component {
-
   async completeBoarding() {
     try {
       await AsyncStorage.setItem("@hasBoarded", new Date().toLocaleDateString());
