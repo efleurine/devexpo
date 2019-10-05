@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import React from "react";
 import {mapping, light as lightTheme} from "@eva-design/eva";
 import {ApplicationProvider, IconRegistry} from "react-native-ui-kitten";
