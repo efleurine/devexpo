@@ -57,3 +57,6 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# A place  to put files which should not be pushed and need to be around
+ignore/
