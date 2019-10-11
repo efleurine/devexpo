@@ -29,6 +29,7 @@
     "date-fns": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
+    "react-hook-form": "^3.23.18",
     "react-native": "0.61.1",
     "react-native-device-info": "^3.1.1",
     "react-native-fast-image": "^7.0.2",

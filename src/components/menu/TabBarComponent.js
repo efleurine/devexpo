@@ -8,6 +8,9 @@ export function TabBarComponent(props) {
 
   return (
     <BottomNavigation
+      onLayout={({nativeEvent: { layout: {x, y, width, height}}})=>{
+        console.log('the size', width, height);
+      }}
       style={styles.bottomNav}
       appearance="noIndicator"
       selectedIndex={activeRouteIndex}

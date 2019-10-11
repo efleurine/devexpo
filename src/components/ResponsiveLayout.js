@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     width: wp(90),
     marginLeft: "auto",
     marginRight: "auto",
+    paddingBottom: 56, // TODO replace by the fixed height of the topbar
     // backgroundColor: "red",
   },
 });
